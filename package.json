@@ -1,0 +1,46 @@
+{
+  "name": "delivery_service",
+  "version": "1.0.0",
+  "description": "The images of products are categorized into folders under Public/images directory like Vegetables, Fruits e.t.c.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "bcrypt": "^5.1.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "csurf": "^1.11.0",
+    "dicer": "^0.3.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^5.2.0",
+    "express-react-views": "^0.11.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^5.3.0",
+    "hbs": "^4.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.13.15",
+    "multer": "^1.4.4",
+    "node-sessionstorage": "^1.0.0",
+    "order-id": "^2.1.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "querystringify": "^2.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "save": "^2.4.0",
+    "sessionstorage": "^0.0.2",
+    "universal": "^0.1.1"
+  },
+  "devDependencies": {
+    "handlebars": "^4.5.0"
+  }
+}
